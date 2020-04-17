@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CategorylistComponent } from './categorylist.component';
+import { ActiveRepoComponent } from './active-repo.component';
 
-describe('CategorylistComponent', () => {
-  let component: CategorylistComponent;
-  let fixture: ComponentFixture<CategorylistComponent>;
+describe('ActiveRepoComponent', () => {
+  let component: ActiveRepoComponent;
+  let fixture: ComponentFixture<ActiveRepoComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ CategorylistComponent ]
+      declarations: [ ActiveRepoComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(CategorylistComponent);
+    fixture = TestBed.createComponent(ActiveRepoComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

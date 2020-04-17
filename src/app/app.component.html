@@ -1,2 +1,11 @@
-<input #search class="search" type="text" placeholder="Search..." (keydown.enter)="onSearch(search.value)">
-    <ng2-smart-table  class="table" [settings]="settings" [source]="source"></ng2-smart-table>
+
+<br><br>
+<mat-tab-group>
+  <mat-tab label="No Order"><app-noorder></app-noorder></mat-tab>
+  <!-- <mat-tab label="Salesman Report"> <app-sales-rep-prodwise></app-sales-rep-prodwise> </mat-tab>
+  <mat-tab label="Distrbutor Report"><app-dist-rep-prodwise></app-dist-rep-prodwise> </mat-tab>
+  <mat-tab label="Vendor Report"> </mat-tab>
+  <mat-tab label="Salesman Daily Report"><app-salesmandailyrep></app-salesmandailyrep> </mat-tab> -->
+  <mat-tab label="Active Report"><app-active-repo></app-active-repo> </mat-tab>
+  <mat-tab label="Retailer List"><app-retailerlist></app-retailerlist> </mat-tab>
+</mat-tab-group>
