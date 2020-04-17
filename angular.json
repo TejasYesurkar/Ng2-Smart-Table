@@ -18,7 +18,7 @@
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
-            "aot": false,
+            "aot": true,
             "assets": [
               "src/favicon.ico",
               "src/assets"
@@ -43,7 +43,6 @@
               "sourceMap": false,
               "extractCss": true,
               "namedChunks": false,
-              "aot": true,
               "extractLicenses": true,
               "vendorChunk": false,
               "buildOptimizer": true,
@@ -125,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "smartTable"
+  "defaultProject": "smartTable",
+  "cli": {
+    "analytics": "6edf0480-45fb-4e31-9290-fc7e6d2b58c0"
+  }
 }
